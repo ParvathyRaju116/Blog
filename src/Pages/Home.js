@@ -123,7 +123,7 @@ function Home({ isAuth }) {
 
                 </div>
               </Col>
-              <Col lg={1} className='d-flex flex-column flex-md-row justify-content-end'>
+              <Col lg={1} className=''>
                 <div className='text-end'>
                   <Button style={{ backgroundColor: 'transparent', border: 0 }} onClick={() => likeCount(post.id)} className='mt-5 pt-3 ps-1'><i class="fa-regular fa-heart  fs-1 text-black"></i><br /><p className=' ps-1 text-black'>{post.likes || 0}</p></Button>
 
